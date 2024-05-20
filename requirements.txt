@@ -8,3 +8,4 @@ streamlit-feedback
 numpy
 pandas
 seaborn
+yfinance
