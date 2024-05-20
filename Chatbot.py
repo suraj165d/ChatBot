@@ -1,8 +1,10 @@
 from openai import OpenAI
 import streamlit as st
 import numpy as np
+import pandas as pd
 import seaborn as sns
 import yfinance as yf
+
 
 with st.sidebar:
     openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
