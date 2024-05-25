@@ -4,6 +4,7 @@
 
 Starter examples for building LLM apps with Streamlit.
 
+<hr>
 ## Overview of the App
 
 This app showcases a growing collection of LLM minimum working examples.
