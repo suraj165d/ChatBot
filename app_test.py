@@ -27,7 +27,7 @@ def create_chat_completion(response: str, role: str = "assistant") -> ChatComple
         created=int(datetime.datetime.now().timestamp()),
     )
 
-
+#Unleashing the patch
 @patch("openai.resources.chat.Completions.create")
 def test_Chatbot(openai_create):
     at = AppTest.from_file("Chatbot.py").run()
